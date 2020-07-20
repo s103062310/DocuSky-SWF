@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"/>
+
+	<title></title>
+
+	<!-- ASSETS -->
+	<script src="assets/js/jquery.min.js"></script>
+
+	<!-- CSS FILE -->
+	<link href="assets/css/main-style.css" type="text/css" rel="stylesheet">
+	<link href="assets/css/exp-style.css" type="text/css" rel="stylesheet">
+	<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<!-- Header -->
+	<nav class="header">
+		<div><a href="https://docusky.org.tw/"><img class="logo" src="assets/images/DocuSky_C_WH.png"></a></div>
+		<div id="overview-tab" class="headerBtn target" onclick="switchTool('overview')"><span class="glyphicon glyphicon-home"></span></div>
+		<div></div>
+		<div id="l-language" class="headerBtn" onclick="toggleLanguageList()"></div>
+		<div class="headerBtn" onclick="toggleMenu('open')" style="grid-template-columns: 2fr 3fr;"><span class="glyphicon glyphicon-info-sign"></span><span id="l-steps" style="text-align: left;"></span></div>
+	</nav>
+
+	<!-- Language -->
+	<div class="language-list"></div>
+
+	<!-- Explain -->
+	<div class="menu">
+		<div class="menu-close" onclick="toggleMenu('close')"><span class="glyphicon glyphicon-remove"></span></div>
+	</div>
+
+	<!-- Content -->
+	<div class="body">
+
+		<!-- Overview -->
+		<div id="overview" class="target"></div>
+
+		<!-- Tools -->
+	</div>
+</body>
+
+<!-- JAVASCRIPT FILE -->
+<script src="assets/js/main.js"></script>
+
+</html>

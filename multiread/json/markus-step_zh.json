@@ -1,0 +1,45 @@
+{
+	"title": "1. 標記對讀文本",
+	"oriTool": true,
+	"stepNum": 8,
+
+	"step1": {
+		"text": "準備好要對讀的文本<b>純文字檔 (.txt)</b>。",
+		"image": "none"
+	},
+
+	"step2": {
+		"text": "點擊右上角 Login 按鈕<em>登入</em> MARKUS 帳號。",
+		"image": "multiread/images/1-2.jpeg"
+	},
+
+	"step3": {
+		"text": "上傳 .txt 文件。",
+		"image": "multiread/images/1-3.jpeg"
+	},
+
+	"step4": {
+		"text": "選擇 <em>「2.b 人工標記」</em>。",
+		"image": "multiread/images/1-4.jpeg"
+	},
+
+	"step5": {
+		"text": "點擊 <span class=\"glyphicon glyphicon-tags\"></span> 圖示新增自訂標籤。",
+		"image": "multiread/images/1-5.jpeg"
+	},
+
+	"step6": {
+		"text": "標籤取名需有<em>「Align.」</em>的前綴。",
+		"image": "multiread/images/1-6.jpeg"
+	},
+
+	"step7": {
+		"text": "開始標註段落，並填寫 ID。",
+		"image": "multiread/images/1-7.jpeg"
+	},
+
+	"step8": {
+		"text": "標註完畢後匯出 <em>.html</em> 檔。",
+		"image": "multiread/images/1-8.jpeg"
+	}
+}

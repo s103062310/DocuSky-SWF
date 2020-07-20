@@ -1,0 +1,132 @@
+p {
+	font-size: medium;
+	text-indent: 2em;
+}
+
+em {
+	color: #C45B59;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ---------- menu ---------- */
+
+.ori-tool {
+	color: white;
+	background-color: steelblue;
+	border: 5px solid steelblue;
+	border-radius: 5px;
+	font-size: medium;
+}
+
+.ori-tool:hover {
+	color: inherit;
+	background-color: powderblue;
+	border-color: powderblue;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ori-tool:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.menu-block h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.menu-block hr {
+	width: 90%;
+	margin: 0 5%;
+	border: 1px solid lightsteelblue;
+}
+
+.menu-block-content {
+	height: 100%;
+	padding: 2vh 5% 0 5%;
+	overflow: scroll;
+}
+
+.step {
+	margin-bottom: 40px;
+}
+
+.step span {
+	display: initial;
+}
+
+.step > img {
+	width: 100%;
+}
+
+/* ---------- overview ---------- */
+
+#overview {
+	padding: 2%;
+}
+
+#overview p {
+	margin: 20px 0;
+	font-size: large;
+}
+
+#overview h1 {
+	font-weight: bold;
+}
+
+#overview hr {
+	width: 100%;
+	margin: 0 0 10px 0;
+	border: 2px solid steelblue;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 50px;
+	text-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+
+.title span {
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.flow {
+	display: grid;
+	grid-template-columns: 5fr 1fr 5fr 1fr 5fr;
+	margin-top: 10px;
+}
+
+.step-block {
+	display: grid;
+	box-shadow: 3px 3px 8px rgba(0,0,0,.3);
+	cursor: pointer;
+}
+
+.step-block:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.step-block h3 {
+	text-align: center;
+}
+
+.step-block img {
+	width: calc(100% - 10px);
+	margin-left: 5px;
+}
+
+.step-block p {
+	width: 100%;
+	padding: 0 10px;
+}
+
+.dir {
+	display: grid;
+	align-self: center;
+	text-align: center;
+	font-size: 40px;
+	color: dimgray;
+}

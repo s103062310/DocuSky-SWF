@@ -1,0 +1,174 @@
+@font-face {
+	font-family: msjh;
+	src: url("../fonts/msjh.eot"),
+		 url("../fonts/msjh.woff") format("woff"), 
+		 url("../fonts/msjh.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	font-family: msjh, sans-serif!important;
+}
+
+/* ---------- header ---------- */
+
+nav {
+	height: 8vh;
+	width: 100vw;
+	position: fixed;
+	background-color: midnightblue;
+	color: white;
+}
+
+.header {
+	display: grid;
+	grid-template-columns: calc(1600 * 6vh / 550 + 2vh) 50px auto 100px 100px;
+}
+
+.header > div {
+	height: 100%;
+	display: grid;
+	text-align: center;
+	align-items: center;
+	font-size: larger;
+}
+
+.header .target {
+	background-color: white;
+	color: midnightblue;
+}
+
+.headerBtn:hover {
+	background-color: white;
+	color: midnightblue;
+	cursor: pointer;
+}
+
+.logo {
+	height: 6vh;
+	width: calc(1600 * 6vh / 550);
+}
+
+/* ---------- language ---------- */
+
+.language-list {
+	z-index: 5;
+	width: 100px;
+	position: fixed;
+	top: 8vh;
+	right: 100px;
+	display: none;
+	grid-gap: 1px;
+	font-size: medium;
+	background-color: silver;
+	box-shadow: 0 1px 5px rgba(0,0,0,.3);
+}
+
+.language-list a {
+	z-index: 10;
+	height: 30px;
+	display: grid;
+	align-items: center;
+	text-align: center;
+	background-color: aliceblue;
+	text-decoration: none;
+	color: inherit;
+}
+
+.language-list a:hover {
+	background-color: silver;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* ---------- menu ---------- */
+
+.menu {
+	height: 100%;
+	width: 40%;
+	position: fixed;
+	left: 60%;
+	z-index: 5;
+	background-color: aliceblue;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	transform: translateX(100%);
+}
+
+.menu.showed {
+	transform: translateX(0%);
+}
+
+.animating {
+	transition: all .3s ease-in-out;
+}
+
+.close {
+	transform: translateX(0%);
+}
+.animating.close {
+	transform: translateX(100%);
+}
+
+.open {
+	transform: translateX(100%);
+}
+.animating.open {
+	transform: translateX(0%);
+}
+
+.menu-close {
+	position: fixed;
+	z-index: 10;
+	top: 1vh;
+	right: 1vh;
+	font-size: x-large;
+	color: steelblue;
+}
+
+.menu-close:hover {
+	color: powderblue;
+	cursor: pointer;
+}
+
+.menu-block {
+	display: none;
+	grid-template-rows: 10vh 1vh 89vh;
+}
+
+.menu-block.target {
+	display: grid;
+}
+
+/* ---------- contents ---------- */
+
+.body {
+	width: 100vw;
+	height: 92vh;
+	position: fixed;
+	top: 8vh;
+	overflow: scroll;
+}
+
+.body > div {
+	display: none;
+}
+
+.body > div.target {
+	display: grid;
+}
+
+.tool-frame {
+	height: 92vh;
+	width: 100vw;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+}
+

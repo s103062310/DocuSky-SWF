@@ -1,0 +1,36 @@
+{
+	"title": "work flow name",
+	"intro": "work flow introduction",
+
+	"stageNum": 3,
+
+	"stage1": {
+		"name": "1. first stage",
+		"id": "id1",
+		"url": "https://docusky.org.tw/",
+		"step": "empty/json/id-step_en.json",
+		"image": "empty/images/0-1.png",
+		"description": "Simple description of the first stage: This is the home page of DocuSky.",
+		"arrow": "right"
+	},
+
+	"stage2": {
+		"name": "2. second stage",
+		"id": "id2",
+		"url": "https://docusky.org.tw/DocuSky/ds-02.guide.html",
+		"step": "empty/json/id-step_en.json",
+		"image": "empty/images/0-1.png",
+		"description": "Simple description of the second stage: This is the old website of DocuSky.",
+		"arrow": "right"
+	},
+
+	"stage3": {
+		"name": "3. third stage",
+		"id": "id3",
+		"url": "https://docusky.org.tw/DocuSky/index2_20181204.html",
+		"step": "empty/json/id-step_en.json",
+		"image": "empty/images/0-1.png",
+		"description": "Simple description of the third stage: This is the new website of DocuSky.",
+		"arrow": "none"
+	}
+}

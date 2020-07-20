@@ -1,0 +1,30 @@
+{
+	"title": "2. 文本格式轉換",
+	"oriTool": true,
+	"stepNum": 5,
+
+	"step1": {
+		"text": "上傳 MARKUS 輸出檔。在此<em>以「文獻集」為單位</em>，欲放在同一個文獻集中的文件，請<b>全部一起</b>選取上傳。",
+		"image": "multiread/images/2-1.jpeg"
+	},
+
+	"step2": {
+		"text": "輸入<b>「文獻集名稱」</b>。",
+		"image": "multiread/images/2-2.jpeg"
+	},
+
+	"step3": {
+		"text": "點選建構文獻集後，可在下方看見建構好的文獻集。",
+		"image": "multiread/images/2-3.jpeg"
+	},
+
+	"step4": {
+		"text": "重複 Step 1 到 Step 3，直到所有文獻集建構完畢。",
+		"image": "multiread/images/2-4.jpeg"
+	},
+
+	"step5": {
+		"text": "下載 DocuXML 檔案或者直接建庫到 DocuSky 上。",
+		"image": "multiread/images/2-5.jpeg"
+	}
+}

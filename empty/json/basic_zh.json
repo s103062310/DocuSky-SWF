@@ -1,0 +1,36 @@
+{
+	"title": "請填寫 work flow 名稱",
+	"intro": "請在此區填寫 work flow 簡介。",
+
+	"stageNum": 3,
+
+	"stage1": {
+		"name": "1. 第一階段標題",
+		"id": "id1",
+		"url": "https://docusky.org.tw/",
+		"step": "empty/json/id-step_zh.json",
+		"image": "empty/images/0-1.png",
+		"description": "第一階段的簡易描述：這是 DocuSky 首頁。",
+		"arrow": "right"
+	},
+
+	"stage2": {
+		"name": "2. 第二階段標題",
+		"id": "id2",
+		"url": "https://docusky.org.tw/DocuSky/ds-02.guide.html",
+		"step": "empty/json/id-step_zh.json",
+		"image": "empty/images/0-1.png",
+		"description": "第二階段的簡易描述：這是 DocuSky 舊版網站。",
+		"arrow": "right"
+	},
+
+	"stage3": {
+		"name": "3. 第三階段標題",
+		"id": "id3",
+		"url": "https://docusky.org.tw/DocuSky/index2_20181204.html",
+		"step": "empty/json/id-step_zh.json",
+		"image": "empty/images/0-1.png",
+		"description": "第三階段的簡易描述：這是 DocuSky 新版網站。",
+		"arrow": "none"
+	}
+}
