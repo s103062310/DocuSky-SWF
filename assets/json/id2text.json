@@ -1,0 +1,133 @@
+{
+	"input": {
+
+		"txt": {
+			"zh": "純文字文本 (.txt)",
+			"en": "Plain Text Data (.txt)"
+		},
+
+		"excel": {
+			"zh": "表格文本 (.csv, .xlsx)",
+			"en": "Table Text Data (.csv, .xlsx)"
+		},
+
+		"xml": {
+			"zh": "DocuSky 建庫檔 (.xml)",
+			"en": "DocuXML (.xml)"
+		},
+
+		"docu": {
+			"zh": "DocuSky 資料庫",
+			"en": "DocuSky Database"
+		}
+
+	},
+
+	"output": {
+
+		"db": {
+			"zh": "建立個人線上資料庫",
+			"en": "Build Personal Online Database"
+		},
+
+		"termstatsvisual": {
+			"zh": "詞彙統計視覺化",
+			"en": "Term Statistics Visualization"
+		},
+
+		"gis": {
+			"zh": "地理資訊系統",
+			"en": "Geographic Information System"
+		},
+
+		"alignread": {
+			"zh": "對讀",
+			"en": "Align Reading"
+		}
+
+	}, 
+
+	"material": {
+
+		"e2dcontent": {
+			"zh": "（全文內容的 .txt 檔）",
+			"en": "(Full Text Content in .txt format)"
+		},
+
+		"metatable": {
+			"zh": "詮釋資料清單 (.xlsx)",
+			"en": "Metadata List (.xlsx)"
+		},
+
+		"tagtable": {
+			"zh": "標記清單 (.xlsx)",
+			"en": "Tag List (.xlsx)"
+		}, 
+
+		"stattermlist": {
+			"zh": "（詞彙清單的 .txt 檔）",
+			"en": "(Term List in .txt format)"
+		}
+
+	},
+
+	"func": {
+
+		"tagging": {
+			"zh": "標記文本",
+			"en": "Tagging"
+		},
+
+		"convert": {
+			"zh": "轉換文本格式",
+			"en": "Convert Format"
+		},
+
+		"ma": {
+			"zh": "附加詮釋資料",
+			"en": "Attach Metadata"
+		},
+
+		"mx": {
+			"zh": "設定建庫檔",
+			"en": "DocuXML Setting"
+		},
+
+		"vdb": {
+			"zh": "檢視資料庫",
+			"en": "View Database"
+		},
+
+		"bdb": {
+			"zh": "建立資料庫",
+			"en": "Build Database"
+		},
+
+		"termstats": {
+			"zh": "詞彙統計",
+			"en": "Term Statistics"
+		},
+
+		"visual": {
+			"zh": "視覺化",
+			"en": "Visualization"
+		},
+
+		"togis": {
+			"zh": "製作地理空間資訊",
+			"en": "Make Geospatial Information"
+		},
+
+		"gis": {
+			"zh": "地理資訊系統",
+			"en": "Geographic Information System"
+		},
+
+		"alignread": {
+			"zh": "文本對讀",
+			"en": "Align Reading"
+		}
+
+	}
+
+}

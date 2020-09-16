@@ -1,0 +1,373 @@
+{
+	"t2d": {
+		"func": "convert",
+		"input": [ "txt" ],
+		"output": [],
+		"material": [],
+		"next": [ "ma", "ct", "manage", "viewdb" ],
+		"pos": [60, 140],
+
+		"info": {
+
+			"zh": {
+				"toolname": "純文字文本轉換工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/ComposeThdlExportXml/composeSimpleThdlExportXml.html",
+				"image": "tools/t2d/t2d.jpeg",
+				"description": "將 UTF-8 編碼格式的純文字檔案，轉換成 DocuXML 檔案（ DocuSky 建庫檔）。"
+			},
+
+			"en": {
+				"toolname": "Plain Text Converter",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/ComposeThdlExportXml/composeSimpleThdlExportXml_EN.html",
+				"image": "tools/t2d/t2d.jpeg",
+				"description": "Convert the UTF-8 encoding plain text file into DocuXML file, which is used to build database on DocuSky."
+			}
+
+		}
+	},
+
+	"e2d": {
+		"func": "convert",
+		"input": [ "excel" ],
+		"output": [],
+		"material": [ "e2dcontent" ],
+		"next": [ "ct", "manage", "viewdb" ],
+		"pos": [60, 220],
+
+		"info": {
+
+			"zh": {
+				"toolname": "表格文本轉換工具",
+				"url": "https://docusky.org.tw/DocuSky/devtools/CSVXLS2DocuXML/",
+				"image": "tools/e2d/e2d.jpeg",
+				"description": "將表格內的資料 (.xls, .xlsx, .csv) 轉製成含有詮釋資料的 DocuXml 檔案（ DocuSky 建庫檔）。"
+			},
+
+			"en": {
+				"toolname": "Table Text Converter",
+				"url": "https://docusky.org.tw/DocuSky/devtools/CSVXLS2DocuXML/",
+				"image": "tools/e2d/e2d.jpeg",
+				"description": "Convert the text data in table (.xls, .xlsx, .csv) into DocuXML file with metadata, which is used to build database on DocuSky."
+			}
+
+		}
+	},
+
+	"ma": {
+		"func": "ma",
+		"input": [ "xml" ],
+		"output": [],
+		"material": [ "metatable" ],
+		"next": [ "ct", "manage", "builddb" ],
+		"pos": [225, 65],
+
+		"info": {
+
+			"zh": {
+				"toolname": "詮釋資料整合工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/MetadataAttachmentTool/index.html",
+				"image": "tools/ma/ma.jpeg",
+				"description": "在 DocuXml 檔案中加上以表格 (.xls, .xlsx) 指定的詮釋資料。"
+			},
+
+			"en": {
+				"toolname": "Metadata Attachment Tool",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/MetadataAttachmentTool/index_EN.html",
+				"image": "tools/ma/ma.jpeg",
+				"description": "Add metadata to DocuXML file through table (.xls, .xlsx) in specific form."
+			}
+
+		}
+	},
+
+	"ct": {
+		"func": "tagging",
+		"input": [ "xml" ],
+		"output": [],
+		"material": [ "tagtable" ],
+		"next": [ "manage", "builddb" ],
+		"pos": [165, 125],
+
+		"info": {
+
+			"zh": {
+				"toolname": "文本批次標記工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/ContentTaggingTool/index.html",
+				"image": "tools/ct/ct.jpeg",
+				"description": "使用表格 (.xls, .xlsx) 指定標記詞彙與標記方式，批次地在 DocuXml 檔案的內文中進行搜尋與標記。"
+			},
+
+			"en": {
+				"toolname": "Content Tagging Tool",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/ContentTaggingTool/index.html",
+				"image": "tools/ct/ct.jpeg",
+				"description": "Tag target terms in the content of DocuXML file in batch. Using table (.xls, .xlsx) in specific form to set term lists and tagging methods."
+			}
+
+		}
+	},
+
+	"manage": {
+		"func": "mx",
+		"input": [ "xml" ],
+		"output": [],
+		"material": [],
+		"next": [ "builddb" ],
+		"pos": [285, 180],
+
+		"info": {
+
+			"zh": {
+				"toolname": "建庫檔管理工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/RecomposeXML/manageMetadataFieldsTool.html",
+				"image": "tools/manage/manage.jpeg",
+				"description": "在 DocuXML 檔案中，對其包含的詮釋資料欄位與標記，進行重整、更名與管理。"
+			},
+
+			"en": {
+				"toolname": "Metadata/Tags Organizing Tool",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/RecomposeXML/manageMetadataFieldsTool.html",
+				"image": "tools/manage/manage.jpeg",
+				"description": "Re-organize, re-name and manage the metadata and tags in DocuXml file."
+			}
+
+		}
+	}, 
+
+	"viewdb": {
+		"func": "vdb",
+		"input": [],
+		"output": [ "db" ],
+		"material": [],
+		"next": [],
+		"pos": [385, 255],
+
+		"info": {
+
+			"zh": {
+				"toolname": "檢視雲端資料庫",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/userMain/",
+				"image": "tools/viewdb/docusky.jpeg",
+				"description": "DocuSky 個人資料庫的管理後台。"
+			},
+
+			"en": {
+				"toolname": "Viewing DocuSky Database",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/userMain/index_EN.html",
+				"image": "tools/viewdb/docusky.jpeg",
+				"description": "Management of DocuSky personal database."
+			}
+
+		}
+	},
+
+	"builddb": {
+		"func": "bdb",
+		"input": [ "xml" ],
+		"output": [ "db" ],
+		"material": [],
+		"next": [ "stats", "geoport" ],
+		"pos": [385, 140],
+
+		"info": {
+
+			"zh": {
+				"toolname": "建立雲端資料庫",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/userMain/",
+				"image": "tools/builddb/docusky.jpeg",
+				"description": "DocuSky 個人資料庫的管理後台。"
+			},
+
+			"en": {
+				"toolname": "Building DocuSky Database",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/userMain/index_EN.html",
+				"image": "tools/builddb/docusky.jpeg",
+				"description": "Management of DocuSky personal database."
+			}
+
+		}
+	},
+
+	"stats": {
+		"func": "termstats",
+		"input": [ "txt", "docu" ],
+		"output": [],
+		"material": [ "stattermlist" ],
+		"next": [ "palladio" ],
+		"pos": [485, 140],
+
+		"info": {
+			"zh": {
+				"toolname": "標記與詞彙統計分析工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/TagStatsTool/",
+				"image": "tools/stats/stats.jpeg",
+				"description": "統計文本內特定詞彙、標記的出現頻率。"
+			},
+
+			"en": {
+				"toolname": "Tag/Term Statistics Tool",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/TagStatsTool/",
+				"image": "tools/stats/stats.jpeg",
+				"description": "Calculate frequency of a specific (tagged) term appearing in text and perform statistic analysis."
+			}
+		}
+	},
+
+	"palladio": {
+		"func": "visual",
+		"input": [],
+		"output": [ "termstatsvisual" ],
+		"material": [],
+		"next": [],
+		"pos": [585, 140],
+
+		"info": {
+			"zh": {
+				"toolname": "Palladio",
+				"url": "https://hdlab.stanford.edu/palladio/",
+				"image": "tools/palladio/palladio.jpeg",
+				"description": "將人文資料做視覺化的呈現，項目包括：地圖、關係網絡圖、表格、畫廊。"
+			},
+
+			"en": {
+				"toolname": "Palladio",
+				"url": "https://hdlab.stanford.edu/palladio/",
+				"image": "tools/palladio/palladio.jpeg",
+				"description": "Visualizing humanistic data, including Map, Graph (network diagram), Table, and Gallery."
+			}
+		}
+	},
+
+	"geoport": {
+		"func": "togis",
+		"input": [ "docu" ],
+		"output": [ "gis" ],
+		"material": [],
+		"next": [ "gis" ],
+		"pos": [485, 200],
+
+		"info": {
+			"zh": {
+				"toolname": "文本地理資訊整合工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/Geoport/",
+				"image": "tools/geoport/geoport.jpeg",
+				"description": "將 DocuXML 檔案中，與地理相關的詮釋資料或標記，轉製成地理空間資訊，匯入 DocuGIS 中。"
+			},
+
+			"en": {
+				"toolname": "GeoPort",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/Geoport/index_EN.html",
+				"image": "tools/geoport/geoport.jpeg",
+				"description": "Transform geographic-related metadata or tags in DocuXML file into geospatial information, and import them into DocuGIS."
+			}
+		}
+	},
+
+	"gis": {
+		"func": "gis",
+		"input": [ "excel" ],
+		"output": [ "gis" ],
+		"material": [],
+		"next": [],
+		"pos": [585, 200],
+
+		"info": {
+			"zh": {
+				"toolname": "DocuSky 地理資訊工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/DocuGIS/",
+				"image": "tools/gis/gis.jpeg",
+				"description": "將文本內的地理資訊顯示在地圖上，提供文本與地圖的互動。"
+			},
+
+			"en": {
+				"toolname": "DocuGIS",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/DocuGIS/",
+				"image": "tools/gis/gis.jpeg",
+				"description": "Display the geospatial information in the text on map. Provide the interaction between text and map."
+			}
+		}
+	},
+
+
+
+	"markus": {
+		"func": "tagging",
+		"input": [ "txt", "markus" ],
+		"output": [],
+		"material": [],
+		"next": [ "m2d" ],
+		"pos": [-50, 305],
+
+		"info": {
+
+			"zh": {
+				"toolname": "碼庫思半自動標記平台",
+				"url": "https://dh.chinese-empires.eu/markus/beta/",
+				"image": "tools/markus/markus.jpeg",
+				"description": "為上傳的文本，自動標記人名、地名、年代及官名，也可自訂欲標記之關鍵字。"
+			},
+
+			"en": {
+				"toolname": "MARKUS",
+				"url": "https://dh.chinese-empires.eu/markus/beta/",
+				"image": "tools/markus/markus.jpeg",
+				"description": "In the uploaded text, automatically tag the person name, place name, year and official title. It also can set up own keywords to tag."
+			}
+
+		}
+	},
+
+	"m2d": {
+		"func": "convert",
+		"input": [ "markus" ],
+		"output": [],
+		"material": [],
+		"next": [ "viewdb", "alignread" ],
+		"pos": [60, 305],
+
+		"info": {
+
+			"zh": {
+				"toolname": "碼庫思格式轉換工具",
+				"url": "http://docusky.org.tw/DocuSky/docuTools/MarkusConverter/Markus2DocuXml.html",
+				"image": "tools/m2d/m2d.jpeg",
+				"description": "將 MARKUS 標記後匯出的檔案 (MARKUS file) 轉換成 DocuXML 檔案（ DocuSky 建庫檔）。"
+			},
+
+			"en": {
+				"toolname": "MARKUS to DocuXML Converter",
+				"url": "http://docusky.org.tw/DocuSky/docuTools/MarkusConverter/Markus2DocuXml.html",
+				"image": "tools/m2d/m2d.jpeg",
+				"description": "Convert the exported files after MARKUS tagging (MARKUS file) into DocuXML file, which is used to build database on DocuSky."
+			}
+
+		}
+	},
+
+	"alignread": {
+		"func": "alignread",
+		"input": [ "xml", "docu" ],
+		"output": [ "alignread" ],
+		"material": [],
+		"next": [],
+		"pos": [485, 315],
+
+		"info": {
+
+			"zh": {
+				"toolname": "文本對讀工具",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/MultiLitReading/",
+				"image": "tools/alignread/alignread.jpeg",
+				"description": "將數個 DocuXml 檔案中的文件，依照 Align 標記或詮釋資料（如：年代、日期）對齊排列，方便對讀。"
+			},
+
+			"en": {
+				"toolname": "Align Reading Tool",
+				"url": "https://docusky.org.tw/DocuSky/docuTools/MultiLitReading/",
+				"image": "tools/alignread/alignread.jpeg",
+				"description": "Align the documents in multiple DocuXML files according to Align tag or metadata (e.g. year, date) for easily reading."
+			}
+
+		}
+	}
+}

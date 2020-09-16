@@ -1,0 +1,109 @@
+{
+	"oriTool": true,
+	"stepNum": 21,
+
+	"step1": {
+		"text": "點選<b>「CORPUS」</b>，載入欲分析的文本。提供兩種方式：載入 <b>.txt</b> 文本 (Step 2)、從 DocuSky 資料庫載入 (Step 6)。",
+		"image": "tools/stats/1.jpeg"
+	},
+
+	"step2": {
+		"text": "輸入文獻集名稱。",
+		"image": "tools/stats/2.jpeg"
+	},
+
+	"step3": {
+		"text": "點選<b>「Select」</b>，上傳 <b>.txt</b> 純文字文本檔案。",
+		"image": "tools/stats/3.jpeg"
+	},
+
+	"step4": {
+		"text": "跳出提示框為正常，按「確定」繼續。",
+		"image": "tools/stats/4.jpeg"
+	},
+
+	"step5": {
+		"text": "點選<b>「Add」</b>，將資料載入系統。",
+		"image": "tools/stats/5.jpeg"
+	},
+
+	"step6": {
+		"text": "點選<b>「DocuSky Corpus Widget」</b>，選擇資料庫載入。",
+		"image": "tools/stats/6.jpeg"
+	},
+
+	"step7": {
+		"text": "已載入的文獻集列在右側。",
+		"image": "tools/stats/7.jpeg"
+	},
+
+	"step8": {
+		"text": "點選<b>「TERMLIST」</b>或<b>「Next」</b>，上傳欲統計的詞彙清單。若想統計標記，忽略此步驟，跳至 Step 12。",
+		"image": "tools/stats/8.jpeg"
+	},
+
+	"step9": {
+		"text": "點選<b>「Select」</b>，上傳 <b>.txt</b> 詞彙清單。",
+		"image": "tools/stats/9.jpeg"
+	},
+
+	"step10": {
+		"text": "點選<b>「Add」</b>。",
+		"image": "tools/stats/10.jpeg"
+	},
+
+	"step11": {
+		"text": "已載入的詞彙清單列在右側。",
+		"image": "tools/stats/11.jpeg"
+	},
+
+	"step12": {
+		"text": "點選<b>「ANALYSIS」</b>或<b>「Next」</b>，進入分析階段。提供兩種分析方式：<em>詞彙清單 (Step 13)、標記 (Step 14)</em>。",
+		"image": "tools/stats/12.jpeg"
+	},
+
+	"step13": {
+		"text": "確認載入文本與詞彙清單無誤後，點選<b>「Run Analysis」</b>進行統計分析。（到 Step 16）",
+		"image": "tools/stats/13.jpeg"
+	},
+
+	"step14": {
+		"text": "點選<b>「Corpus with XML tags」</b>。",
+		"image": "tools/stats/14.jpeg"
+	},
+
+	"step15": {
+		"text": "選擇要統計的標記後，點選<b>「Run Analysis」</b>進行統計分析。",
+		"image": "tools/stats/15.jpeg"
+	},
+
+	"step16": {
+		"text": "統計完成後將自動跳至結果頁面。",
+		"image": "tools/stats/16.jpeg"
+	},
+
+	"step17": {
+		"text": "系統會根據統計結果繪製簡單的文字雲。",
+		"image": "tools/stats/17.jpeg"
+	},
+
+	"step18": {
+		"text": "系統提供各種格式的輸出。",
+		"image": "tools/stats/18.jpeg"
+	},
+
+	"step19": {
+		"text": "<em>輸出模式一：只包含基本的統計資訊，標記類別 (Category)、標記詞彙 (Term)、詞彙出現總次數 (TF)、詞彙出現文件數 (DF))。</em>",
+		"image": "tools/stats/19.jpeg"
+	},
+
+	"step20": {
+		"text": "<em>輸出模式二：列出每份文件的統計資訊，可選擇詮釋資料附加上去。統計資料包含，在此文件中出現的標記詞彙個數 (TermsCount)、標記詞彙在此文件中出現的總次數 (TotalOccur)、在此文件中出現的標記詞彙 (TermList)、每個標記詞彙與其在文件中的出現次數 (Detail)。</em>",
+		"image": "tools/stats/20.jpeg"
+	},
+
+	"step21": {
+		"text": "<em>輸出模式三：以每份文件的每個標記詞彙為單位列出統計資訊，可選擇詮釋資料附加上去。統計資料包含，標記詞彙 (TagVal)、標記詞彙在文件中出現的次數 (Frequency)。</em>",
+		"image": "tools/stats/21.jpeg"
+	}
+}

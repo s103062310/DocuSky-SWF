@@ -1,0 +1,44 @@
+{
+	"oriTool": true,
+	"stepNum": 8,
+
+	"step1": {
+		"text": "在開始之前，請先準備一份標記清單 (.xlsx)，將所有欲標記的詞彙紀錄於表單中。<em>標記清單編寫須遵守<a href=\"https://drive.google.com/file/d/1zybh-VBREtLJgujQhMmRCI23o7VuTrtn/edit\" target=\"_blank\">相關規範</a></em>。",
+		"image": "none"
+	},
+
+	"step2": {
+		"text": "上傳欲加上標記的資料庫檔案 (.xml)。",
+		"image": "tools/ct/2.jpeg"
+	},
+
+	"step3": {
+		"text": "已載入的 .xml 與其資訊，列在右側。",
+		"image": "tools/ct/3.jpeg"
+	},
+
+	"step4": {
+		"text": "上傳事先準備的標記清單 (.xlsx)。",
+		"image": "tools/ct/4.jpeg"
+	},
+
+	"step5": {
+		"text": "已載入的標記資料表與其資訊，列在右側。",
+		"image": "tools/ct/5.jpeg"
+	},
+
+	"step6": {
+		"text": "若在讀取標記清單時偵測到錯誤，將顯示在下方，請依照提示檢查標記清單，修正後從 Step 2 再次開始。",
+		"image": "tools/ct/6.jpeg"
+	},
+
+	"step7": {
+		"text": "選擇<b>是否清除文本舊有的標記</b>與<b>是否同時將詞彙輸出到 MetaTags 中</b>。",
+		"image": "tools/ct/7.jpeg"
+	},
+
+	"step8": {
+		"text": "輸入檔案名稱後，點選<b>「點我儲存」</b>，下載已標記完成的 .xml 檔案。",
+		"image": "tools/ct/8.jpeg"
+	}
+}

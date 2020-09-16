@@ -1,0 +1,89 @@
+{
+	"oriTool": true,
+	"stepNum": 17,
+
+	"step1": {
+		"text": "將資料製作成 CSV 檔案，<em>CSV 編寫須遵守<a href=\"https://docs.google.com/spreadsheets/d/1bZzjMrEbKr0yVgr_qYcpKd-r5x88VGTgLrjkr0g7Rc4/edit#gid=0\" target=\"_blank\">相關規範</a></em>。若檔案由 <em>GeoPort</em> 下載，亦須修改幾個項目：<b>sid → id、id → filename、經度→ x、緯度→ y</b>。",
+		"image": "tools/gis/1.jpeg"
+	},
+
+	"step2": {
+		"text": "點選 <span class=\"glyphicon glyphicon-remove\"></span> 關掉說明。",
+		"image": "tools/gis/2.jpeg"
+	},
+
+	"step3": {
+		"text": "點選<b>「上傳 CSV」</b>。",
+		"image": "tools/gis/3.jpeg"
+	},
+
+	"step4": {
+		"text": "將 .csv 的內容複製，並貼進輸入框內。",
+		"image": "tools/gis/4.jpeg"
+	},
+
+	"step5": {
+		"text": "輸入<b>「圖層名稱」</b>後，點選<b>「新增此圖層」</b>。",
+		"image": "tools/gis/5.jpeg"
+	},
+
+	"step6": {
+		"text": "跳出提示框，顯示匯入狀況，點選<b>「確定」</b>。",
+		"image": "tools/gis/6.jpeg"
+	},
+
+	"step7": {
+		"text": "<em>文本互動區</em>，點選每列資料，地圖上對應的點將顯示其資料。",
+		"image": "tools/gis/7.jpeg"
+	},
+
+	"step8": {
+		"text": "在文本互動區的工具列，可以<em>檢索詮釋資料與全文</em>，也能<em>繪製統計圖表</em>。",
+		"image": "tools/gis/8.jpeg"
+	},
+
+	"step9": {
+		"text": "<em>圖層管理區</em>，可對圖層進行控制。",
+		"image": "tools/gis/9.jpeg"
+	},
+
+	"step10": {
+		"text": "<em>置換底圖與套疊歷史地圖</em>。",
+		"image": "tools/gis/10.jpeg"
+	},
+
+	"step11": {
+		"text": "點選<b>「文本圖層」</b>，<em>管理個人圖層</em>。",
+		"image": "tools/gis/11.jpeg"
+	},
+
+	"step12": {
+		"text": "點選<b>「參考圖層」</b>，內含多種公開資源。",
+		"image": "tools/gis/12.jpeg"
+	},
+
+	"step13": {
+		"text": "<b>「公開圖層」</b>，可以將 DocuSky 公開的研究成果加入個人圖層中。",
+		"image": "tools/gis/13.jpeg"
+	},
+
+	"step14": {
+		"text": "<b>「地名」</b>，可以查詢歷史地名。",
+		"image": "tools/gis/14.jpeg"
+	},
+
+	"step15": {
+		"text": "<b>「歷史災異」</b>，可以將歷史上的災異紀錄加入個人圖層中。",
+		"image": "tools/gis/15.jpeg"
+	},
+
+	"step16": {
+		"text": "<b>「CBDB」</b>，可以查詢歷史人名，並將此人的籍貫或仕途加入個人圖層中。",
+		"image": "tools/gis/16.jpeg"
+	},
+
+	"step17": {
+		"text": "<b>「路徑」</b>，可以替圖層中的資料點繪製路徑。",
+		"image": "tools/gis/17.jpeg"
+	}
+}

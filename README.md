@@ -1,42 +1,65 @@
 # DocuSky-SWF
-[Develop Weekly Progress](https://hackmd.io/gJHTSj54S-KSJKVBvLS4XQ)
+[Develop Weekly Progress](https://hackmd.io/@DocuSky/S1EY0FTJP)
 
 > 2020.07.20 | v.0.1, prototype  
-> 2020.07.24 | v.1.0 
+> 2020.07.24 | v.1.0  
+> 2020.09.16 | v.2.0  
 
 ## Directory
 
 ```
 DocuSky-SWF/
-  └ index.html      (common parts for every flow - UI structure)
-  └ assets/         (materials for index.html)
+  └ selector.html   (flow selector)
+  └ swf.html        (work flow UI structure)
+  └ assets/         (materials for main tool - selector & swf)
       └ js/
       └ css/
+      └ json/
       └ fonts/
       └ images/
-  └ empty/          (template/example)
-      └ json/
-      └ images/
-      └ readme.md   (how to create a new flow and files detailed format - write in Chinese)
-  └   .             (each folder is a flow with folder name as flow code)
-  └   .
-  └   .
+  └ tools/          (all tools files)
+      └ empty/          (template/example)
+          └ step_zh.json   (required, tool steps file in chinese)
+          └ step_en.json   (optional, tool steps file in other language, if language is set in language.json)
+          └ .
+          └ .
+          └ .
+          └ (also can put tool related images)
+      └   .             (each folder records information of a tool)
+      └   .
+      └   .
 ```
 
-## Files
+## Main Files for SWF
 
-### main
-* **index.html:** only contain html structure, no content
-* **assets/js/main.js:** clicked events, display functions
-* **assets/css/main-style.css:** style sheet for main UI of flow such as tool bar
-* **assets/css/exp-style.css:** style sheet for detailed UI such as overview and steps
+### HTML
+(only contain html UI structure, no content)
+* **selector.html:** before entering work flow page, select a flow according to given I/O
+* **swf.html:** main work flow page
 
-### flow folder > json/
-* **basic_zh.json (must):** record basic information about the flow
-* **other_zh.json (must):** at least 2 files, depended on how many stages the flow has
-* **basic_en.json (optional):** same as basic_zh.json, just write in English (for other language, change **en** to other language code)
-* **other_en.json (optional):** same as other_zh.json, just write in English (for other language, change **en** to other language code)
+### JS (assets/js/)
+* **globalVar.js:** common global variables and window initialze functions of selector and work flow page, make sure all data is loaded.
+* **selector.js:** functions for selector.html
+* **toolMap.js:** functions related to svg tool map (show in selector.html)
+* **swf.js:** functions for swf.html
 
-### Work Flows
-1. **empty:** templated example
-2. **multiread:** markus -> m2d -> multilitreading tool
+### CSS (assets/css/)
+* **main-style.css:** style sheet for overall UI setting and header
+* **selector-style.css:** style sheet for selector.html
+* **swf-style.css:** style sheet for swf.html
+* **swf-content-style.css:** style sheet for detailed UI of swf.html such as overview and steps
+
+### JSON (assets/json/)
+(click [here](https://github.com/s103062310/DocuSky-SWF/tree/master/assets/json/readme.md) to look for more details for format in each json files (written in Chinese).)
+* **language.json:** language choice array
+* **tools.json:** record information of all tools
+* **id2text.json:** record corresponding text of each id
+* **selector.json:** record text used in selector.html
+* **swf.json:** record text used in swf.html
+
+## Tool folder (tools/.../)
+* Each folder under ```tools/``` represents a tool, and the folder name must be the ID of the tool defined in ```assets/json/tools.json```.
+* Each tool folder **must** contain **step_zh.json**, record step by step instructions of the tool in Chinese
+* Filename of step by step instructions in other language needs to be **step_xx.json**, where *xx* is language id defined in ```assets/json/language.json```.
+* Click [here](https://github.com/s103062310/DocuSky-SWF/tree/master/tools/empty/readme.md) for more details for format in **step.json** (written in Chinese).
+* Under tool folder, all images related to the tool also can be put here. Just remember to write the path correctly in other files.

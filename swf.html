@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"/>
+	<title>Simple Work Flow</title>
+
+	<!-- ASSETS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- CSS FILE -->
+	<link href="assets/css/main-style.css" type="text/css" rel="stylesheet">
+	<link href="assets/css/swf-style.css" type="text/css" rel="stylesheet">
+	<link href="assets/css/swf-content-style.css" type="text/css" rel="stylesheet">
+	<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<nav class="header">
+		<div><a href="https://docusky.org.tw/" target="_blank"><img class="logo" src="assets/images/DocuSky_C_WH.png"></a></div>
+		<div id="overview-tab" class="headerBtn target" onclick="switchTool('overview')"><span class="glyphicon glyphicon-home"></span></div>
+		<div id="stageTabs"></div>
+		<div id="l-language" class="headerBtn" onclick="toggleLanguageList()"></div>
+		<div class="headerBtn" onclick="toggleStep('open')" style="grid-template-columns: 2fr 3fr;"><span class="glyphicon glyphicon-info-sign"></span><span id="l-steps" style="text-align: left;"></span></div>
+	</nav>
+
+	<!-- Language -->
+	<div id="language-list" style="width: 100px; right: 100px;"></div>
+
+	<!-- Explain -->
+	<div class="menu">
+		<div class="menu-close" onclick="toggleStep('close')"><span class="glyphicon glyphicon-remove"></span></div>
+	</div>
+
+	<!-- Content -->
+	<div class="body">
+
+		<!-- Overview -->
+		<div id="overview" class="target"></div>
+
+		<!-- Tools -->
+	</div>
+
+	<!-- JAVASCRIPT FILE -->
+	<script src="assets/js/globalVar.js"></script>
+	<script src="assets/js/swf.js"></script>
+
+</body>
+
+</html>

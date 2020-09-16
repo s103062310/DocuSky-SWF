@@ -1,0 +1,46 @@
+{
+	"steps": {
+		"zh": "步驟",
+		"en": "Steps"
+	},
+
+	"language": {
+		"zh": "語言",
+		"en": "Language"
+	},
+
+	"procedure": {
+		"zh": "流程",
+		"en": "Procedure"
+	},
+
+	"toolText": {
+		"zh": "點我回到原工具",
+		"en": "Click me to return to origin tool"
+	}, 
+
+	"colon": {
+		"zh": "：",
+		"en": ": "
+	},
+
+	"neededFiles": {
+		"zh": "在開始前，需要準備以下檔案：",
+		"en": "Before starting, you need to prepare the files below:"
+	}, 
+
+	"overviewAlert": {
+		"zh": "本頁面無操作步驟，請先進入任一工具。",
+		"en": "There are no steps in this stage. Please enter a tool first."
+	},
+
+	"paraError": {
+		"zh": "參數傳遞錯誤，請洽工程師。",
+		"en": "Error in parameters, please contact the engineer."
+	},
+
+	"loadStepError": {
+		"zh": "找不到工具步驟資訊，請洽工程師。",
+		"en": "Cannot find steps information of tool, please contact the engineer."
+	}
+}

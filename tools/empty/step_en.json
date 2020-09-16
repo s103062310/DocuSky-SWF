@@ -1,0 +1,24 @@
+{
+	"oriTool": true,
+	"stepNum": 4,
+
+	"step1": {
+		"text": "This is a completed step, including text description and image.",
+		"image": "tools/empty/empty.png"
+	},
+
+	"step2": {
+		"text": "It also can be no image, but cannot be no text description.",
+		"image": "none"
+	},
+
+	"step3": {
+		"text": "About text description, <b>this is bold</b>, and <em>this is emphasized</em>, and <i>this is italic</i>. If you want 2 effects, <b><i>do this</i></b>.",
+		"image": "none"
+	},
+
+	"step4": {
+		"text": "If you want to use icon, you can write this: <span class=\"glyphicon glyphicon-tags\"></span>. Fill icon name in class attribute, and icon names can be find <a href=\"https://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp\" target=\"_blank\">here</a>.",
+		"image": "none"
+	}
+}

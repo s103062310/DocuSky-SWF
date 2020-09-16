@@ -1,0 +1,124 @@
+{
+	"oriTool": true,
+	"stepNum": 24,
+
+	"step1": {
+		"text": "點選<b>「Start」</b>開始使用工具。",
+		"image": "tools/palladio/1.jpeg"
+	},
+
+	"step2": {
+		"text": "將<b>標記與詞彙統計分析工具輸出的 CSV 資料</b>貼進輸入框內。",
+		"image": "tools/palladio/2.jpeg"
+	},
+
+	"step3": {
+		"text": "點選<b>「Load」</b>。",
+		"image": "tools/palladio/3.jpeg"
+	},
+
+	"step4": {
+		"text": "Palladio 提供各種視覺化功能，由頁籤切換，包含：<em>地圖 (Step 7)、關係網絡圖 (Step 19)、表格 (Step 21)、畫廊 (Step 23)</em>。",
+		"image": "tools/palladio/4.jpeg"
+	},
+
+	"step5": {
+		"text": "<b>「Data」</b>分頁可以管理載入的資料。",
+		"image": "tools/palladio/5.jpeg"
+	},
+
+	"step6": {
+		"text": "點選<b>「Map」</b>，進入地圖的繪製。",
+		"image": "tools/palladio/6.jpeg"
+	},
+
+	"step7": {
+		"text": "在各分頁中，點選 <span class=\"glyphicon glyphicon-align-justify\"></span> 可收合/開啟設定區塊。",
+		"image": "tools/palladio/7.jpeg"
+	},
+
+	"step8": {
+		"text": "點選<b>「New layer」</b>，新增一個圖層。",
+		"image": "tools/palladio/8.jpeg"
+	},
+
+	"step9": {
+		"text": "在<b>「Data」</b>中設定地圖繪製的資料。",
+		"image": "tools/palladio/9.jpeg"
+	},
+
+	"step10": {
+		"text": "點選<b>「Add layer」</b>，繪製地圖。",
+		"image": "tools/palladio/10.jpeg"
+	},
+
+	"step11": {
+		"text": "點選<b>「New layer」</b>，新增一個圖層。",
+		"image": "tools/palladio/8.jpeg"
+	},
+
+	"step12": {
+		"text": "在<b>「Tiles」</b>中選擇底圖。",
+		"image": "tools/palladio/12.jpeg"
+	},
+
+	"step13": {
+		"text": "點選<b>「Add layer」</b>，新增底圖。",
+		"image": "tools/palladio/13.jpeg"
+	},
+
+	"step14": {
+		"text": "使用 <span class=\"glyphicon glyphicon-eye-open\"></span> 按鈕控制圖層的顯示。",
+		"image": "tools/palladio/14.jpeg"
+	},
+
+	"step15": {
+		"text": "點選<b>「Facet」</b>可以過濾資料。",
+		"image": "tools/palladio/15.jpeg"
+	},
+
+	"step16": {
+		"text": "點選<b>「Timeline」</b>可以查看資料的時間統計，並根據時間過濾資料。",
+		"image": "tools/palladio/16.gif"
+	},
+
+	"step17": {
+		"text": "點選<b>「Timespan」</b>可以查看每筆資料的時間重複情況，並根據時間過濾資料。",
+		"image": "tools/palladio/17.gif"
+	},
+
+	"step18": {
+		"text": "點選 <span class=\"glyphicon glyphicon-trash\"></span> 刪除過濾器；點選 <span class=\"glyphicon glyphicon-chevron-down\"></span> 收合過濾器。",
+		"image": "tools/palladio/18.jpeg"
+	},
+
+	"step19": {
+		"text": "點選<b>「Graph」</b>，進入關係網絡圖的繪製。",
+		"image": "tools/palladio/19.jpeg"
+	},
+
+	"step20": {
+		"text": "設定資料關聯的來源與樣式。",
+		"image": "tools/palladio/20.jpeg"
+	},
+
+	"step21": {
+		"text": "點選<b>「Table」</b>，進入表格的繪製。",
+		"image": "tools/palladio/21.jpeg"
+	},
+
+	"step22": {
+		"text": "設定表格資料。",
+		"image": "tools/palladio/22.jpeg"
+	},
+
+	"step23": {
+		"text": "點選<b>「Gallery」</b>，進入畫廊的繪製。",
+		"image": "tools/palladio/23.jpeg"
+	},
+
+	"step24": {
+		"text": "設定畫廊要顯示的資料。",
+		"image": "tools/palladio/24.jpeg"
+	}
+}

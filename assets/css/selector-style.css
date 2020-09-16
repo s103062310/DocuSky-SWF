@@ -1,0 +1,176 @@
+em {
+	color: #C45B59;
+	font-style: normal;
+}
+
+/* ---------- header ---------- */
+
+.header {
+	display: grid;
+	grid-template-columns: calc(1600 * 6vh / 550 + 2vh) auto 150px;
+}
+
+/* ---------- selector ---------- */
+
+.selector {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 2%;
+}
+
+.selector-item {
+	display: flex;
+	align-items: center;
+}
+
+.selector-item > * {
+	margin: 10px;
+}
+
+.selector-item span {
+	font-size: x-large;
+	font-weight: bold;
+	align-items: center;
+}
+
+.selector-item select {
+	width: 300px;
+	font-size: large;
+}
+
+.selector-item select:hover {
+	cursor: pointer;
+}
+
+.selector button {
+	margin: 10px;
+}
+
+/* ---------- recommandation ---------- */
+
+.recommandation {
+	margin: 2%;
+	padding: 2%;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+
+.recommandation .card {
+	border: 0px;
+}
+
+.recommandation .card-header {
+	padding: 0;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.recommandation .card-header button {
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	font-size: larger;
+	white-space: initial;
+}
+
+.recommandation .collapse.show {
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body ol {
+	margin-bottom: 10px;
+}
+
+.card-body button {
+	margin-left: 40px;
+}
+
+#accordion {
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	border-bottom: 0px;
+}
+
+/* ---------- graph ---------- */
+
+#toolmap {
+	margin: 40px 2% 0 2%;
+}
+
+.graph {
+	width: 96%;
+	height: auto;
+	margin: 2%;
+	padding: 2%;
+	background-color: whitesmoke;
+	border-radius: .3rem;
+}
+
+rect {
+	opacity: .1;
+}
+
+text {
+	font-size: 10px;
+}
+
+rect.label,
+text.label {
+	fill: goldenrod;
+}
+
+rect.convert,
+text.convert {
+	fill: darkorange;
+}
+
+rect.manage,
+text.manage {
+	fill: green;
+}
+
+rect.db,
+text.db {
+	fill: blue;
+}
+
+rect.app,
+text.app {
+	fill: purple;
+}
+
+circle {
+	fill: steelblue;
+}
+
+circle:hover {
+	cursor: pointer;
+	fill: dodgerblue;
+}
+
+circle.target {
+	fill: indianred;
+}
+
+circle.target:hover {
+	fill: palevioletred;
+}
+
+path {
+	fill: none;
+	stroke: slategray;
+}
+
+path.target {
+	fill: none;
+	stroke: rosybrown;
+	marker-end: url(#targetArrow);
+}
+
+#targetArrow path {
+	stroke: slategray;
+}
+
+#targetArrow path {
+	stroke: rosybrown;
+}

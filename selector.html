@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"/>
+	<title>Simple Work Flow</title>
+
+	<!-- ASSETS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+	
+
+	<!-- CSS FILE -->
+	<link href="assets/css/main-style.css" type="text/css" rel="stylesheet">
+	<link href="assets/css/selector-style.css" type="text/css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<nav class="header">
+		<div><a href="https://docusky.org.tw/" target="_blank"><img class="logo" src="assets/images/DocuSky_C_WH.png"></a></div>
+		<div><h1 style="margin: auto;"></h1></div>
+		<div id="l-language" class="headerBtn" onclick="toggleLanguageList()"></div>
+	</nav>
+
+	<!-- Language -->
+	<div id="language-list" style="width: 150px; right: 0;"></div>
+
+	<!-- Content -->
+	<div class="body">
+		
+		<!-- Selector -->
+		<div class="selector">
+
+			<div class="selector-item">
+				<span id="input-label"></span>
+				<select id="input-select" class="custom-select" aria-label=""></select>
+			</div>
+
+			<div class="selector-item">
+				<span id="output-label"></span>
+				<select id="output-select" class="custom-select" aria-label=""></select>
+			</div>
+
+			<button id="search-btn" type="button" class="btn btn-primary" onclick="search()"></button>
+
+		</div>
+
+		<!-- Recommandation -->
+		<div class="recommandation"></div>
+
+		<!-- Tool Graph -->
+		<h3 id="toolmap"></h3>
+		<div class="graph"></div>
+
+	</div>
+
+	<!-- JAVASCRIPT FILE -->
+	<script src="assets/js/globalVar.js"></script>
+	<script src="assets/js/selector.js"></script>
+	<script src="assets/js/toolMap.js"></script>
+
+</body>
+
+</html>

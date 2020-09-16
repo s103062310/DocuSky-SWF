@@ -1,0 +1,44 @@
+{
+	"oriTool": true,
+	"stepNum": 8,
+
+	"step1": {
+		"text": "點選<b>「取得文獻集」</b>從 DocuSky 載入文本。<b>若資料筆數超過 100 筆，記得更改設定數值。</b>",
+		"image": "tools/geoport/1.jpeg"
+	},
+
+	"step2": {
+		"text": "左下角顯示文本中的標記與詮釋資料。",
+		"image": "tools/geoport/2.jpeg"
+	},
+
+	"step3": {
+		"text": "選取要匯到 DocuGIS 系統的資料。",
+		"image": "tools/geoport/3.jpeg"
+	},
+
+	"step4": {
+		"text": "<b>「Export Coordinates' Mode」</b> 選擇 <b>「A passage has many rows by locations」</b>。",
+		"image": "tools/geoport/4.jpeg"
+	},
+
+	"step5": {
+		"text": "若所選 Work Flow 包含 DocuGIS，到 Step 6；若無，到 Step 7。",
+		"image": "none"
+	},
+
+	"step6": {
+		"text": "<b>「Export Mode」</b> 選擇 <b>「CSV」</b>，並點選<b>「Export」</b> 儲存 .csv。",
+		"image": "tools/geoport/6.jpeg"
+	},
+
+	"step7": {
+		"text": "<b>「Export Mode」</b> 選擇 <b>「DocuGIS」</b>，並點選<b>「Export」</b>。",
+		"image": "tools/geoport/7.jpeg"
+	},
+
+	"step8": {
+		"text": "點選<b>「Go to DocuGIS now!」</b>，直接進入 DocuGIS。（會在 Simple Work Flow 之外新開啟一個分頁）",
+		"image": "tools/geoport/8.jpeg"
+	}
+}

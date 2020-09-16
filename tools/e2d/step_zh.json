@@ -1,0 +1,139 @@
+{
+	"oriTool": true,
+	"stepNum": 27,
+
+	"step1": {
+		"text": "起始畫面為工具使用說明，點選圖示 <span class=\"glyphicon glyphicon-cloud-download\"></span> 可下載正式說明文件。",
+		"image": "tools/e2d/1.jpeg"
+	},
+
+	"step2": {
+		"text": "點擊圖示 <span class=\"glyphicon glyphicon-remove\"></span> 關閉使用說明視窗，開始使用工具。",
+		"image": "tools/e2d/2.jpeg"
+	},
+
+	"step3": {
+		"text": "<b>螢幕右上方工具列：</b>點選圖示 <span class=\"glyphicon glyphicon-question-sign\"></span>，可開啟方才的使用說明視窗查看詳細說明；點選圖示 <span class=\"glyphicon glyphicon-cloud\"></span>，開啟在 DocuSky 的個人資料庫；點選圖示 <span class=\"glyphicon glyphicon-home\"></span>，回到 DocuSky 首頁。",
+		"image": "tools/e2d/3.jpeg"
+	},
+
+	"step4": {
+		"text": "此工具共有六個階段，使用左右兩側的 <span class=\"glyphicon glyphicon-chevron-left\"></span>、<span class=\"glyphicon glyphicon-chevron-right\"></span> 按鈕切換各階段。",
+		"image": "tools/e2d/4.jpeg"
+	},
+
+	"step5": {
+		"text": "每個階段的<em>注意事項</em>註明在黃色區塊中，<b>操作前請先詳細閱讀</b>。",
+		"image": "tools/e2d/5.jpeg"
+	},
+
+	"step6": {
+		"text": "上傳表格文本（.csv、.xls、.xlsx）：點選<b>「新增檔案」</b>或是直接<b>將檔案拖曳進虛線框</b>中。",
+		"image": "tools/e2d/6.jpeg"
+	},
+
+	"step7": {
+		"text": "一個方塊代表一份資料表，點選圖示 <span class=\"glyphicon glyphicon-trash\">，可刪除此資料表；點選圖示 <span class=\"glyphicon glyphicon-eye-open\">，可檢視此資料表的內容；點選 <span class=\"glyphicon glyphicon-ok\"> 或 <span class=\"glyphicon glyphicon-remove\">，可改變此資料表的狀態（是否被選取）。",
+		"image": "tools/e2d/7.jpeg"
+	},
+
+	"step8": {
+		"text": "使用<b>「資料表方塊」</b>或者<b>「資料表工具列」</b>選取欲轉檔之資料表。<em>已選擇的資料表呈現綠色，未選擇的資料表呈現紅色。</em>確認後點選 <span class=\"glyphicon glyphicon-chevron-right\"> 進入下一階段。",
+		"image": "tools/e2d/8.jpeg"
+	},
+
+	"step9": {
+		"text": "左側為資料表列表，可切換各個資料表，分別做設定。",
+		"image": "tools/e2d/9.jpeg"
+	},
+
+	"step10": {
+		"text": "選擇對應<b>「文獻集名稱」</b>的資料表欄位。",
+		"image": "tools/e2d/10.jpeg"
+	},
+
+	"step11": {
+		"text": "選擇對應<b>「文件唯一編號」</b>的資料表欄位。",
+		"image": "tools/e2d/11.jpeg"
+	},
+
+	"step12": {
+		"text": "所有項目都填寫完後，點選 <span class=\"glyphicon glyphicon-chevron-right\"> 進入下一階段。",
+		"image": "none"
+	},
+
+	"step13": {
+		"text": "替資料表的每個欄位選擇<b>「欲對應的詮釋資料」</b>。關於詮釋資料的規範，顯示於右側提示框中。",
+		"image": "tools/e2d/13.jpeg"
+	},
+
+	"step14": {
+		"text": "不做對應的項目請維持「請選擇」的選項，<em>不一定要全部都對應</em>。設定完畢後點選 <span class=\"glyphicon glyphicon-chevron-right\"> 進入下一階段。",
+		"image": "none"
+	},
+
+	"step15": {
+		"text": "若有自訂詮釋資料的需求，或是想讓詮釋資料可以顯示在 DocMeta 中，點選<b>「新增一項自訂欄位」</b>做設定。若無此需求，點選 <span class=\"glyphicon glyphicon-chevron-right\"> 跳過此階段（Step 17）。",
+		"image": "tools/e2d/15.jpeg"
+	},
+
+	"step16": {
+		"text": "設定每項自訂詮釋資料。<em>欄位名稱請用半形英文取名。</em>設定完畢後點選 <span class=\"glyphicon glyphicon-chevron-right\"> 進入下一階段。",
+		"image": "tools/e2d/16.jpeg"
+	},
+
+	"step17": {
+		"text": "此階段可以利用分頁添加文件<b>「內文」（Step 18）、「多值欄位」（Step 23）、「註解」與「事件」（Step 24）</b>。若無此需求，可跳過此階段（Step 25）。",
+		"image": "tools/e2d/17.jpeg"
+	},
+
+	"step18": {
+		"text": "選擇資料來源：<b>「資料表欄位」（Step 19）</b>或者<b>「匯入純文字檔」（Step 20）</b>。",
+		"image": "tools/e2d/18.jpeg"
+	},
+
+	"step19": {
+		"text": "選擇對應內文的資料表欄位。",
+		"image": "tools/e2d/19.jpeg"
+	},
+
+	"step20": {
+		"text": "使用表格內的 <span class=\"glyphicon glyphicon-cloud-upload\"> 按鈕上傳 .txt 檔案，或是表格上方的工具列批次上傳。",
+		"image": "tools/e2d/20.jpeg"
+	},
+
+	"step21": {
+		"text": "上傳成功會更改檔案狀態為綠色 <span class=\"glyphicon glyphicon-ok\">。點選圖示 <span class=\"glyphicon glyphicon-eye-open\"> 可檢視上傳的內容；點選圖示 <span class=\"glyphicon glyphicon-trash\"> 可刪除上傳的檔案。",
+		"image": "tools/e2d/21.jpeg"
+	},
+
+	"step22": {
+		"text": "批次上傳將根據檔名做自動對應，<em>請確認 .txt 檔被正確命名</em>。未對應成功者將列在右側，可手動拖曳到相應的文件列中。",
+		"image": "tools/e2d/22.jpeg"
+	},
+
+	"step23": {
+		"text": "選擇欲當成多值欄位的資料表欄位，需額外以<em>半形英文填寫標籤名稱</em>。",
+		"image": "tools/e2d/23.jpeg"
+	},
+
+	"step24": {
+		"text": "選擇對應註解/事件的資料表欄位。",
+		"image": "tools/e2d/24.jpeg"
+	},
+
+	"step25": {
+		"text": "設定完畢後點選 <span class=\"glyphicon glyphicon-chevron-right\"> 開始轉換檔案格式。",
+		"image": "none"
+	},
+
+	"step26": {
+		"text": "輸入檔案名稱後，點選<b>「下載」</b>儲存 .xml 檔案。",
+		"image": "tools/e2d/26.jpeg"
+	},
+
+	"step27": {
+		"text": "也可以輸入資料庫名稱，直接<b>「建庫到 DocuSky 上」</b>。<em>請注意！</em>資料庫<b>名稱若相同</b>，後者將會<em>覆蓋</em>前者。<em>欲使用此功能，需有 DocuSky 帳號，請先<a href=\"https://docusky.org.tw/DocuSky/ds-20.accountApply.html\" target=\"_blank\">於此申請</a></em>",
+		"image": "tools/e2d/27.jpeg"
+	}
+}

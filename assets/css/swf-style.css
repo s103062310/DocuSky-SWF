@@ -1,0 +1,106 @@
+
+
+/* ---------- header ---------- */
+
+.header {
+	display: grid;
+	grid-template-columns: calc(1600 * 6vh / 550 + 2vh) 50px auto 100px 100px;
+}
+
+.header .target {
+	background-color: white;
+	color: midnightblue;
+}
+
+#stageTabs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 10px;
+}
+
+#stageTabs div {
+	height: 5vh;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+/* ---------- menu ---------- */
+
+.menu {
+	height: 100%;
+	width: 40%;
+	position: fixed;
+	left: 60%;
+	z-index: 5;
+	background-color: aliceblue;
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+	transform: translateX(100%);
+}
+
+.menu.showed {
+	transform: translateX(0%);
+}
+
+.animating {
+	transition: all .3s ease-in-out;
+}
+
+.close {
+	transform: translateX(0%);
+}
+.animating.close {
+	transform: translateX(100%);
+}
+
+.open {
+	transform: translateX(100%);
+}
+.animating.open {
+	transform: translateX(0%);
+}
+
+.menu-close {
+	position: fixed;
+	z-index: 10;
+	top: 1vh;
+	right: 1vh;
+	font-size: x-large;
+	color: steelblue;
+}
+
+.menu-close:hover {
+	color: powderblue;
+	cursor: pointer;
+}
+
+.menu-block {
+	display: none;
+	grid-template-rows: 10vh 1vh 89vh;
+}
+
+.menu-block.target {
+	display: grid;
+}
+
+/* ---------- contents ---------- */
+
+.body > div {
+	display: none;
+}
+
+.body > div.target {
+	display: grid;
+}
+
+.tool-frame {
+	height: 100%;
+	width: 100%;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+}
+

@@ -1,0 +1,101 @@
+{
+	"title": {
+		"zh": "Simple Work Flow",
+		"en": "Simple Work Flow"
+	},
+
+	"language": {
+		"zh": "語言",
+		"en": "Language"
+	},
+
+	"input": {
+		"zh": "文本格式",
+		"en": "Data Format"
+	},
+
+	"output": {
+		"zh": "目的",
+		"en": "Goal"
+	},
+
+	"choose": {
+		"zh": "--- 請選擇 ---",
+		"en": "--- Choose ---"
+	},
+
+	"search": {
+		"zh": "查詢",
+		"en": "Search"
+	},
+
+	"recommandation": {
+		"zh": "建議的 Work Flow",
+		"en": "Suggested Work Flow"
+	},
+
+	"enterSWF": {
+		"zh": "進入 Simple Work Flow",
+		"en": "Enter Simple Work Flow"
+	},
+
+	"colon": {
+		"zh": "：",
+		"en": ": "
+	},
+
+	"pause": {
+		"zh": "、",
+		"en": ", "
+	},
+
+	"toolmap": {
+		"zh": "工具地圖",
+		"en": "Tools Map"
+	},
+
+	"label": {
+		"zh": "標記與編輯",
+		"en": "Tags and Editing"
+	},
+
+	"convert": {
+		"zh": "轉換文本格式",
+		"en": "Change Textual Format"
+	},
+
+	"manage": {
+		"zh": "建庫與重整",
+		"en": "Database Creation and Reformatting"
+	},
+
+	"db": {
+		"zh": "個人資料庫",
+		"en": "Personal Database"
+	},
+
+	"app": {
+		"zh": "應用工具",
+		"en": "Application Tools"
+	},
+
+	"material": {
+		"zh": "，<em>需額外準備</em> - ",
+		"en": ", <em>need to prepare</em> - "
+	},
+
+	"nowf": {
+		"zh": "沒有找到相符的 Work Flow。",
+		"en": "Work Flow NOT FOUND."
+	},
+
+	"lackInput": {
+		"zh": "請選擇文本格式。",
+		"en": "Please choose data format."
+	},
+
+	"lackOutput": {
+		"zh": "請選擇目的。",
+		"en": "Please choose goal."
+	}
+}

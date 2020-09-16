@@ -1,0 +1,44 @@
+{
+	"oriTool": true,
+	"stepNum": 8,
+
+	"step1": {
+		"text": "準備好要對讀的文本<b>純文字檔 (.txt)</b>。",
+		"image": "none"
+	},
+
+	"step2": {
+		"text": "點擊右上角 Login 按鈕<em>登入</em> MARKUS 帳號。",
+		"image": "tools/markus/2.jpeg"
+	},
+
+	"step3": {
+		"text": "上傳 .txt 文件。",
+		"image": "tools/markus/3.jpeg"
+	},
+
+	"step4": {
+		"text": "選擇 <em>「2.b 人工標記」</em>。",
+		"image": "tools/markus/4.jpeg"
+	},
+
+	"step5": {
+		"text": "點擊 <span class=\"glyphicon glyphicon-tags\"></span> 圖示新增自訂標籤。",
+		"image": "tools/markus/5.jpeg"
+	},
+
+	"step6": {
+		"text": "標籤取名需有<em>「Align.」</em>的前綴。",
+		"image": "tools/markus/6.jpeg"
+	},
+
+	"step7": {
+		"text": "開始標註段落，並填寫 ID。",
+		"image": "tools/markus/7.jpeg"
+	},
+
+	"step8": {
+		"text": "標註完畢後匯出 <em>.html</em> 檔。",
+		"image": "tools/markus/8.jpeg"
+	}
+}

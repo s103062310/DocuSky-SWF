@@ -1,0 +1,44 @@
+{
+	"oriTool": true,
+	"stepNum": 8,
+
+	"step1": {
+		"text": "輸入<b>「文獻集名稱」</b>，並上傳.txt 檔案。欲放在同一個文獻集中的文件，請<b>全部一起</b>選取上傳。",
+		"image": "tools/t2d/1.jpeg"
+	},
+
+	"step2": {
+		"text": "已建構的文獻集列在下方，右側顯示已載入的檔案與所屬文獻集。",
+		"image": "tools/t2d/2.jpeg"
+	},
+
+	"step3": {
+		"text": "重複 step 1，直到所有文獻集都建立完成。",
+		"image": "none"
+	},
+
+	"step4": {
+		"text": "輸入檔案名稱後，點選<b>「點我儲存」</b>，下載已轉換完成的 .xml 檔案。",
+		"image": "tools/t2d/4.jpeg"
+	},
+
+	"step5": {
+		"text": "若想直接在 DocuSky 上建立資料庫，點選<b>「點我建構或刪除文字庫」</b>，打開浮動視窗（可拖動）。<em>欲使用此功能，需有 DocuSky 帳號，請先<a href=\"https://docusky.org.tw/DocuSky/ds-20.accountApply.html\" target=\"_blank\">於此申請</a></em>",
+		"image": "tools/t2d/5.jpeg"
+	},
+
+	"step6": {
+		"text": "上傳方才下載的 .xml 檔案。",
+		"image": "tools/t2d/6.jpeg"
+	},
+
+	"step7": {
+		"text": "輸入<b>「資料庫名稱」</b>。<em>請注意！</em>資料庫<b>名稱若相同</b>，後者將會<em>覆蓋</em>前者。",
+		"image": "tools/t2d/7.jpeg"
+	},
+
+	"step8": {
+		"text": "點選<b>「開始上傳」</b>。",
+		"image": "tools/t2d/8.jpeg"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"oriTool": true,
+	"stepNum": 12,
+
+	"step1": {
+		"text": "上傳欲調整設定的資料庫檔案 (.xml) 。",
+		"image": "tools/manage/1.jpeg"
+	},
+
+	"step2": {
+		"text": "選擇要調整的文獻集。",
+		"image": "tools/manage/2.jpeg"
+	},
+
+	"step3": {
+		"text": "若只需從 .xml 檔案匯出其他表格型資料，請跳至 Step 12。",
+		"image": "none"
+	},
+
+	"step4": {
+		"text": "檢視此文獻集內的詮釋資料欄位。",
+		"image": "tools/manage/4.jpeg"
+	},
+
+	"step5": {
+		"text": "右側下拉選單可<em>操作詮釋資料欄位</em>：刪除欄位、複製欄位的值到另一個欄位。",
+		"image": "tools/manage/5.jpeg"
+	},
+
+	"step6": {
+		"text": "<em>更新文獻集名稱</em>，需先勾選<b>「是」</b>，並在輸入框內填寫新的文獻集名稱。",
+		"image": "tools/manage/6.jpeg"
+	},
+
+	"step7": {
+		"text": "<em>更新文件檔名</em>，可取代檔名中非編號的部分。",
+		"image": "tools/manage/7.jpeg"
+	},
+
+	"step8": {
+		"text": "<em>詮釋資料的後分類管理</em>，可自訂後分類在雲端資料庫上 <b>1) 顯示的標題 2) 順序 3) 是否顯示</b>。",
+		"image": "tools/manage/8.jpeg"
+	},
+
+	"step9": {
+		"text": "<em>標籤的後分類管理</em>： 1) 將自訂標籤<b>加入後分類</b> 2) 自訂標籤在雲端資料庫上<b>顯示的標題</b> 3) 複製標籤的值到詮釋資料欄位。",
+		"image": "tools/manage/9.jpeg"
+	},
+
+	"step10": {
+		"text": "點選<b>「按我套用以上規則更新 DocuXML」</b>儲存新的設定。",
+		"image": "tools/manage/10.jpeg"
+	},
+
+	"step11": {
+		"text": "輸入檔案名稱後，點選<b>「點我儲存」</b>下載已更新設定的 .xml 檔案。",
+		"image": "tools/manage/11.jpeg"
+	},
+
+	"step12": {
+		"text": "額外匯出<em>詮釋資料、標記與 Alignments</em>，輸入檔名後點選<b>「匯出」</b>，下載所需的表格資料。",
+		"image": "tools/manage/12.jpeg"
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"oriTool": true,
+	"stepNum": 8,
+
+	"step1": {
+		"text": "請先登入 DocuSky 帳號。",
+		"image": "tools/viewdb/1.jpeg"
+	},
+
+	"step2": {
+		"text": "在<b>「文獻集列表」</b>中找到目標資料庫，狀態顯示<b>「OK」</b>表示建庫已完成，選擇文獻集點進去。",
+		"image": "tools/viewdb/2.jpeg"
+	},
+
+	"step3": {
+		"text": "開始使用雲端資料庫。",
+		"image": "tools/viewdb/3.jpeg"
+	},
+
+	"step4": {
+		"text": "<em>全文檢索</em>。",
+		"image": "tools/viewdb/4.jpeg"
+	},
+
+	"step5": {
+		"text": "<em>詮釋資料與後分類</em>，包含統計圖表與文字雲繪製的功能。",
+		"image": "tools/viewdb/5.jpeg"
+	},
+
+	"step6": {
+		"text": "<em>標記分析</em>，包含文字雲繪製與地圖打點。",
+		"image": "tools/viewdb/6.jpeg"
+	},
+
+	"step7": {
+		"text": "開啟 <em>DocMeta</em>。",
+		"image": "tools/viewdb/7.jpeg"
+	},
+
+	"step8": {
+		"text": "<em>綴詞檢索</em>。",
+		"image": "tools/viewdb/8.jpeg"
+	}
+}

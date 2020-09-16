@@ -1,0 +1,39 @@
+{
+	"oriTool": true,
+	"stepNum": 7,
+
+	"step1": {
+		"text": "在開始之前，請先準備一份詮釋資料清單 (.xlsx)，將所有欲加上的詮釋資料紀錄於表單中。<em>詮釋資料清單編寫須遵守<a href=\"https://docs.google.com/spreadsheets/d/1G7UPZv-G1D7Yowwj_r7pO7rZXmr16PrxEZQ22_bqFIw/edit\" target=\"_blank\">相關規範</a></em>。",
+		"image": "none"
+	},
+
+	"step2": {
+		"text": "上傳欲附加詮釋資料的資料庫檔案 (.xml)。",
+		"image": "tools/ma/2.jpeg"
+	},
+
+	"step3": {
+		"text": "已載入的 .xml 與其資訊，列在右側。",
+		"image": "tools/ma/3.jpeg"
+	},
+
+	"step4": {
+		"text": "上傳事先準備的詮釋資料清單 (.xlsx)。",
+		"image": "tools/ma/4.jpeg"
+	},
+
+	"step5": {
+		"text": "已載入的詮釋資料資料表與其資訊，列在右側。",
+		"image": "tools/ma/5.jpeg"
+	},
+
+	"step6": {
+		"text": "若在讀取詮釋資料清單時偵測到錯誤，將顯示在下方，請依照提示檢查標記清單，修正後從 Step 2 再次開始。",
+		"image": "tools/ma/6.jpeg"
+	},
+
+	"step7": {
+		"text": "輸入檔案名稱後，點選<b>「點我儲存」</b>，下載已標記完成的 .xml 檔案。",
+		"image": "tools/ma/7.jpeg"
+	}
+}
