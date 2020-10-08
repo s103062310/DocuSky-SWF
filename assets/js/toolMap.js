@@ -58,12 +58,14 @@ function displayGraph() {
 						<svg width="110" height="30"><text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" class="convert">${ _mainContent.convert[_language] }</text></svg>
 					</g>
 					<g transform="translate(130,5)">
-						<rect width="200" height="350" class="manage"/>
-						<svg width="200" height="30"><text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" class="manage">${ _mainContent.manage[_language] }</text></svg>
+						<rect width="100" height="170" class="manage"/>
+						<rect width="200" height="180" class="manage" transform="translate(0,170)"/>
+						<svg width="100" height="30"><text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" class="manage">${ _mainContent.manage1[_language] }</text></svg>
+						<svg width="100" height="60" transform="translate(0,300)"><text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" class="manage">${ _mainContent.manage2[_language] }</text></svg>
 					</g>
-					<g transform="translate(120,70)">
-						<rect width="90" height="90" class="label" style="opacity: .2;"/>
-						<svg width="90" height="30"><text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" class="label">${ _mainContent.label[_language] }</text></svg>
+					<g transform="translate(230,5)">
+						<rect width="100" height="170" class="label" style="opacity: .2;"/>
+						<svg width="100" height="30"><text x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" class="label">${ _mainContent.label[_language] }</text></svg>
 					</g>
 					<g transform="translate(340,5)">
 						<rect width="90" height="350" class="db"/>

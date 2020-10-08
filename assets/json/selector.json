@@ -64,9 +64,14 @@
 		"en": "Change Textual Format"
 	},
 
-	"manage": {
+	"manage1": {
 		"zh": "建庫與重整",
-		"en": "Database Creation and Reformatting"
+		"en": "Database Creation"
+	},
+
+	"manage2": {
+		"zh": "",
+		"en": "and Reformatting"
 	},
 
 	"db": {

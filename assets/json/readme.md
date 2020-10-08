@@ -1,11 +1,11 @@
 # SWF JSON 資料格式說明
 
 ```diff
-- 文件設定中若有使用到路徑者，位置請填寫以 DocuSky-SWF 為起始的「相對路徑」。
+- 文件設定中若有使用到路徑者，位置請填寫以 SimpleWorkFlow 為起始的「相對路徑」。
 ```
 
 ## 基本條目
-```json
+```js
 {
     "項目A id": {
         "語言a id": "項目 A 以語言 a 書寫的資料",
@@ -28,7 +28,7 @@
 * 定義工具使用語言的 id。
 
 ### 資料格式
-```json
+```js
 {
     "語言a id": "語言 a 的文字",
     "語言b id": "語言 b 的文字",
@@ -50,7 +50,7 @@
   * **func:** 以單詞簡述每項工具的功能 (描述流程時使用)。
 
 ### 資料格式
-```json
+```js
 {
     "工具 id": {
         "func": "工具功能單詞簡述",
@@ -107,7 +107,7 @@
 * id 分成四大類：input, output, material, func。
 
 ### 資料格式
-```json
+```js
 {
     "id 類別": {
         // 基本條目 1
@@ -140,7 +140,7 @@
 * 以一個條目為單位，替每筆資料製作多語言內容。
 
 ### 資料格式
-```json
+```js
 {
     // 基本條目 1
     // 基本條目 2
@@ -149,8 +149,8 @@
 ```
 
 ## 新增一項工具
-1. 在 ```assets/json/tools.json``` 中新增一項工具的資料 (詳見 [上述設定](#tools.json))。
-2. 若途中有新的 id 產生，將其對應的文字添加到 ```assets/json/id2text.json``` 中 (詳見 [上述設定](#id2text.json))。
+1. 在 ```assets/json/tools.json``` 中新增一項工具的資料 (詳見 [上述設定](#toolsjson))。
+2. 若途中有新的 id 產生，將其對應的文字添加到 ```assets/json/id2text.json``` 中 (詳見 [上述設定](#id2textjson))。
 3. ```pos``` 的欄位先隨便填一個座標。
 4. 打開 ```assets/js/selector.js```，將 ```function toTool()``` 的 ```window.open(_tools[$toolID].info[_language].url)``` 註解掉。
 5. 打開 ```selector.html```，捲動到頁面下方的工具地圖，拖動新增的工具點到適合的位置。
@@ -160,6 +160,6 @@
 9. 在 ```tools/``` 下創建新增工具的資料夾，並放入所需檔案 (詳見 [相關設定](https://github.com/s103062310/DocuSky-SWF/tree/master/tools/empty/readme.md))。
 
 ## 新增一種語言
-1. 打開 ```assets/json/language.json```，新增語言 (詳見 [上述設定](#language.json))。
+1. 打開 ```assets/json/language.json```，新增語言 (詳見 [上述設定](#languagejson))。
 2. 打開 ```assets/``` 之下 **所有** json 檔，依照各檔案規定格式添加新增的語言翻譯。
 3. ```tools/``` 之下，每個工具資料夾內皆添加一個新增語言的 step.json 檔案 (詳見 [相關設定](https://github.com/s103062310/DocuSky-SWF/tree/master/tools/empty/readme.md))。

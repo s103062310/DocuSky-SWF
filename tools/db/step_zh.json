@@ -1,0 +1,74 @@
+{
+	"oriTool": true,
+	"stepNum": 14,
+
+	"step1": {
+		"text": "欲使用此功能，需有 DocuSky 帳號，請先<a href=\"https://docusky.org.tw/DocuSky/ds-20.accountApply.html\" target=\"_blank\">於此申請</a>。",
+		"image": "none"
+	},
+
+	"step2": {
+		"text": "請先登入 DocuSky 帳號。",
+		"image": "tools/db/2.jpeg"
+	},
+
+	"step3": {
+		"text": "若已建好雲端資料庫，請跳至 Step 8。",
+		"image": "none"
+	},
+
+	"step4": {
+		"text": "上傳製作好的資料庫檔案 (.xml) 。",
+		"image": "tools/db/4.jpeg"
+	},
+
+	"step5": {
+		"text": "輸入<b>「資料庫名稱」</b>。<em>請注意！</em>資料庫<b>名稱若相同</b>，後者將會<em>覆蓋</em>前者。",
+		"image": "tools/db/5.jpeg"
+	},
+
+	"step6": {
+		"text": "點選<b>「開始上傳」</b>，出現成功上傳提示框。",
+		"image": "tools/db/6.jpeg"
+	},
+
+	"step7": {
+		"text": "在<b>「文獻集列表」</b>中找到目標資料庫，等待狀態顯示由<b>「建置中」</b>改為<b>「OK」</b>，表示建庫已完成。（期間須重整網頁以更新資訊）",
+		"image": "tools/db/7.jpeg"
+	},
+
+	"step8": {
+		"text": "選擇文獻集點進去。",
+		"image": "tools/db/8.jpeg"
+	},
+
+	"step9": {
+		"text": "開始使用雲端資料庫。",
+		"image": "tools/db/9.jpeg"
+	},
+
+	"step10": {
+		"text": "<em>全文檢索</em>。",
+		"image": "tools/db/10.jpeg"
+	},
+
+	"step11": {
+		"text": "<em>詮釋資料與後分類</em>，包含統計圖表與文字雲繪製的功能。",
+		"image": "tools/db/11.jpeg"
+	},
+
+	"step12": {
+		"text": "<em>標記分析</em>，包含文字雲繪製與地圖打點。",
+		"image": "tools/db/12.jpeg"
+	},
+
+	"step13": {
+		"text": "開啟 <em>DocMeta</em>。",
+		"image": "tools/db/13.jpeg"
+	},
+
+	"step14": {
+		"text": "<em>綴詞檢索</em>。",
+		"image": "tools/db/14.jpeg"
+	}
+}

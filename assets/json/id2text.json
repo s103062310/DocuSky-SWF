@@ -38,11 +38,6 @@
 		"gis": {
 			"zh": "地理資訊系統",
 			"en": "Geographic Information System"
-		},
-
-		"alignread": {
-			"zh": "對讀",
-			"en": "Align Reading"
 		}
 
 	}, 
@@ -93,14 +88,9 @@
 			"en": "DocuXML Setting"
 		},
 
-		"vdb": {
-			"zh": "檢視資料庫",
-			"en": "View Database"
-		},
-
-		"bdb": {
-			"zh": "建立資料庫",
-			"en": "Build Database"
+		"db": {
+			"zh": "檢視/建立資料庫",
+			"en": "View/Build Database"
 		},
 
 		"termstats": {

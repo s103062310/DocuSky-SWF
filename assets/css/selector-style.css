@@ -159,6 +159,7 @@ circle.target:hover {
 path {
 	fill: none;
 	stroke: slategray;
+	stroke-width: 1.3;
 }
 
 path.target {
@@ -167,7 +168,7 @@ path.target {
 	marker-end: url(#targetArrow);
 }
 
-#targetArrow path {
+#normalArrow path {
 	stroke: slategray;
 }
 
